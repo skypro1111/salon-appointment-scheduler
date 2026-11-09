@@ -1,6 +1,7 @@
 #!/bin/bash
 # Run inside /workspace/project of the Codespace (Salon Appointment Scheduler)
-cd /workspace/project
+# Run it from the root folder of the CodeRoad workspace for this project
+echo "Working in: $(pwd)"
 cat > salon.sh <<'SCRIPT'
 #! /bin/bash
 
